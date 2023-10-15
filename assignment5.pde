@@ -9,7 +9,7 @@ void setup() {
   size(500, 500, P3D);  
   noStroke();
   b1 = new Ball (250,500,0, 0,-15,-5, 50); 
-  h1 = new Hoop(250,100,0);
+  h1 = new Hoop(250,100,-100);
   
   // only used to print text isf ball is a lose or win
   // delete after win/lose animations are done
